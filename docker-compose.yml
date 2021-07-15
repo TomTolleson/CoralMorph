@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    run:
+        container_name: 797d86682860
+        ports:
+            - '8080:80'
+        volumes:
+            - ':/model'
+        image: run
